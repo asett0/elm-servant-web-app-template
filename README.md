@@ -1,6 +1,10 @@
 # web-app-template
 ### Playing around with web app tech stack using Haskell and Elm.
 
+Prerequisites:
+- Docker 18.09 or above
+- That's it...
+
 To build your image, in the root directory of this project run
 
 `DOCKER_BUILDKIT=1 docker image build -t your-web-app:1.0.0 .`
